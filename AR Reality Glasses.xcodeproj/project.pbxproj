@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B9BE2D6E27991CF400A8D407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BE2D6D27991CF400A8D407 /* AppDelegate.swift */; };
 		B9BE2D7027991CF400A8D407 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BE2D6F27991CF400A8D407 /* ContentView.swift */; };
-		B9BE2D7227991CF400A8D407 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B9BE2D7127991CF400A8D407 /* Experience.rcproject */; };
 		B9BE2D7427991CF500A8D407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BE2D7327991CF500A8D407 /* Assets.xcassets */; };
 		B9BE2D7727991CF500A8D407 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BE2D7627991CF500A8D407 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		B9BE2D6A27991CF400A8D407 /* AR Reality Glasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Reality Glasses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BE2D6D27991CF400A8D407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BE2D6F27991CF400A8D407 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B9BE2D7127991CF400A8D407 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		B9BE2D7327991CF500A8D407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9BE2D7627991CF500A8D407 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				B9BE2D6D27991CF400A8D407 /* AppDelegate.swift */,
 				B9BE2D6F27991CF400A8D407 /* ContentView.swift */,
-				B9BE2D7127991CF400A8D407 /* Experience.rcproject */,
 				B9BE2D7327991CF500A8D407 /* Assets.xcassets */,
 				B9BE2D7527991CF500A8D407 /* Preview Content */,
 			);
@@ -142,7 +139,6 @@
 			files = (
 				B9BE2D7027991CF400A8D407 /* ContentView.swift in Sources */,
 				B9BE2D6E27991CF400A8D407 /* AppDelegate.swift in Sources */,
-				B9BE2D7227991CF400A8D407 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +279,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +311,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
